@@ -9,6 +9,7 @@ A peer-to-peer group based file sharing system (using torrent architecture) wher
 
 ```
 cd tracker
+g++ tracker.cpp -o tracker
 ./tracker
 ```
 
@@ -24,8 +25,10 @@ cd tracker
 
 ```
 cd client
+g++ client.cpp -o client -lssl -lcrypto
 ./client <IP> <PORT>
-ex: ./client 127.0.0.1 18000
+
+example: ./client 127.0.0.1 18000
 ```
 
 2. Create user account:
