@@ -1,4 +1,4 @@
-# Mini_Torrent_A_P2P_Group_Based_File_Sharing_System
+# Mini Torrent - P2P Group Based File Sharing System
 
 A peer-to-peer group based file sharing system (using torrent architecture) where users can upload and download files from the group they belong to. File is divided into chunks of 512KB and Downloads are parallel from multiple peers. Tracker maintains the user, group and file information to assist peers to communicate between them. Uses SHA1 for checking file integrity.
 
